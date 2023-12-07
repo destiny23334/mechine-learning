@@ -4,7 +4,7 @@ import numpy as np
 
 class LogisticRegression:
     def __init__(self):
-        pass
+        self.weight_ = None
 
     def fit(self, x, y):
         pass
